@@ -1,11 +1,11 @@
-# revision 24394
+# revision 24537
 # category Package
 # catalog-ctan /macros/xetex/latex/xepersian
-# catalog-date 2011-10-24 16:26:34 +0200
+# catalog-date 2011-11-06 16:20:17 +0100
 # catalog-license lppl1.3
-# catalog-version 1.3.2
+# catalog-version 1.3.3
 Name:		texlive-xepersian
-Version:	1.3.2
+Version:	1.3.3
 Release:	1
 Summary:	Persian for LaTeX over XeTeX
 Group:		Publishing
