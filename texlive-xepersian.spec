@@ -1,11 +1,11 @@
-# revision 24537
+# revision 24687
 # category Package
 # catalog-ctan /macros/xetex/latex/xepersian
-# catalog-date 2011-11-06 16:20:17 +0100
+# catalog-date 2011-11-22 09:14:31 +0100
 # catalog-license lppl1.3
-# catalog-version 1.3.3
+# catalog-version 11.136
 Name:		texlive-xepersian
-Version:	1.3.3
+Version:	11.136
 Release:	1
 Summary:	Persian for LaTeX over XeTeX
 Group:		Publishing
@@ -18,28 +18,25 @@ BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
-Conflicts:	texlive-source <= 20110705-3
 
 %description
 The package supports Persian typesetting, using fonts provided
 in the distribution.
 
 %pre
-    %_texmf_mktexlsr_pre
+    %{_sbindir}/texlive.post
 
 %post
-    %_texmf_mktexlsr_post
+    %{_sbindir}/texlive.post
 
 %preun
     if [ $1 -eq 0 ]; then
-	%_texmf_mktexlsr_pre
+	%{_sbindir}/texlive.post
     fi
 
 %postun
     if [ $1 -eq 0 ]; then
-	%_texmf_mktexlsr_post
+	%{_sbindir}/texlive.post
     fi
 
 #-----------------------------------------------------------------------
@@ -85,7 +82,6 @@ in the distribution.
 %{_texmfdistdir}/tex/xelatex/xepersian/messages-localise.def
 %{_texmfdistdir}/tex/xelatex/xepersian/minitoc-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/misc-localise-xepersian.def
-%{_texmfdistdir}/tex/xelatex/xepersian/multicol-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/natbib-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/packages-localise-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/rapport1-xepersian.def
@@ -112,6 +108,8 @@ in the distribution.
 %doc %{_texmfdistdir}/doc/xelatex/xepersian/test-empty-form.tex
 %doc %{_texmfdistdir}/doc/xelatex/xepersian/test-question-only.tex
 %doc %{_texmfdistdir}/doc/xelatex/xepersian/test-solution-form.tex
+%doc %{_texmfdistdir}/doc/xelatex/xepersian/xepersian-logo.pdf
+%doc %{_texmfdistdir}/doc/xelatex/xepersian/xepersian-logo.tex
 %doc %{_texmfdistdir}/doc/xelatex/xepersian/xepersian.pdf
 #- source
 %doc %{_texmfdistdir}/source/xelatex/xepersian/xepersian.dtx
