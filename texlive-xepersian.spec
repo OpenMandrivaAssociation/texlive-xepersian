@@ -1,13 +1,13 @@
-# revision 24687
+# revision 27200
 # category Package
 # catalog-ctan /macros/xetex/latex/xepersian
-# catalog-date 2011-11-22 09:14:31 +0100
+# catalog-date 2012-07-25 12:33:32 +0200
 # catalog-license lppl1.3
-# catalog-version 11.136
+# catalog-version 11.143
 Name:		texlive-xepersian
-Version:	11.136
-Release:	2
-Summary:	Persian for LaTeX over XeTeX
+Version:	11.143
+Release:	1
+Summary:	Persian for LaTeX, using XeTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/latex/xepersian
 License:	LPPL1.3
@@ -20,8 +20,8 @@ Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 
 %description
-The package supports Persian typesetting, using fonts provided
-in the distribution.
+The package supports Persian typesetting, using the Persian
+Modern fonts, by default.
 
 %post
     %{_sbindir}/texlive.post
@@ -65,7 +65,9 @@ in the distribution.
 %{_texmfdistdir}/tex/xelatex/xepersian/extreport-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/flowfram-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/footnote-bidi-xepersian.def
+%{_texmfdistdir}/tex/xelatex/xepersian/framed-bidi-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/hyperref-xepersian.def
+%{_texmfdistdir}/tex/xelatex/xepersian/imsproc-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/kashida-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/listings-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/loadingorder-bidi-xepersian.def
@@ -83,6 +85,7 @@ in the distribution.
 %{_texmfdistdir}/tex/xelatex/xepersian/scrartcl-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/scrbook-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/scrreprt-xepersian.def
+%{_texmfdistdir}/tex/xelatex/xepersian/tkz-linknodes-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/tocloft-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/xepersian-magazine.cls
 %{_texmfdistdir}/tex/xelatex/xepersian/xepersian-mathsdigitspec.sty
@@ -90,7 +93,7 @@ in the distribution.
 %{_texmfdistdir}/tex/xelatex/xepersian/xepersian-persiancal.sty
 %{_texmfdistdir}/tex/xelatex/xepersian/xepersian.sty
 %doc %{_texmfdistdir}/doc/xelatex/xepersian/README
-%doc %{_texmfdistdir}/doc/xelatex/xepersian/ftxe-0.11.py
+%doc %{_texmfdistdir}/doc/xelatex/xepersian/ftxe-0.12.py
 %doc %{_texmfdistdir}/doc/xelatex/xepersian/img/ireland.jpg
 %doc %{_texmfdistdir}/doc/xelatex/xepersian/img/weather/clouds.jpg
 %doc %{_texmfdistdir}/doc/xelatex/xepersian/img/weather/rain.jpg
