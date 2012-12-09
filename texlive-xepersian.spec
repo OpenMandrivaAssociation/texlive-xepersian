@@ -119,3 +119,28 @@ Modern fonts, by default.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 11.143-1
++ Revision: 813183
+- Update to latest release.
+
+* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 11.136-2
++ Revision: 757591
+- Rebuild to reduce used resources
+
+* Fri Dec 09 2011 Paulo Andrade <pcpa@mandriva.com.br> 11.136-1
++ Revision: 739943
+- texlive-xepersian
+
+* Thu Nov 10 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.3.3-1
++ Revision: 729702
+- texlive-xepersian
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.3.2-1
++ Revision: 719926
+- texlive-xepersian
+- texlive-xepersian
+- texlive-xepersian
+
