@@ -1,11 +1,11 @@
-# revision 27200
+# revision 31793
 # category Package
 # catalog-ctan /macros/xetex/latex/xepersian
-# catalog-date 2012-07-25 12:33:32 +0200
+# catalog-date 2013-09-29 00:08:31 +0200
 # catalog-license lppl1.3
-# catalog-version 11.143
+# catalog-version 13.3
 Name:		texlive-xepersian
-Version:	11.143
+Version:	13.3
 Release:	1
 Summary:	Persian for LaTeX, using XeTeX
 Group:		Publishing
@@ -44,7 +44,6 @@ Modern fonts, by default.
 %{_texmfdistdir}/tex/xelatex/xepersian/artikel2-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/artikel3-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/backref-xepersian.def
-%{_texmfdistdir}/tex/xelatex/xepersian/bidicode-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/bidimoderncv-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/bidituftesidenote-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/boek-xepersian.def
@@ -52,30 +51,28 @@ Modern fonts, by default.
 %{_texmfdistdir}/tex/xelatex/xepersian/book-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/bookest-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/breqn-xepersian.def
-%{_texmfdistdir}/tex/xelatex/xepersian/color-localise.def
-%{_texmfdistdir}/tex/xelatex/xepersian/commands-ltx.def
-%{_texmfdistdir}/tex/xelatex/xepersian/commands-xepersian.def
-%{_texmfdistdir}/tex/xelatex/xepersian/empheq-xepersian.def
+%{_texmfdistdir}/tex/xelatex/xepersian/color-localise-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/enumerate-xepersian.def
-%{_texmfdistdir}/tex/xelatex/xepersian/environments-ltx.def
-%{_texmfdistdir}/tex/xelatex/xepersian/environments-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/extarticle-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/extbook-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/extrafootnotefeatures-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/extreport-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/flowfram-xepersian.def
-%{_texmfdistdir}/tex/xelatex/xepersian/footnote-bidi-xepersian.def
-%{_texmfdistdir}/tex/xelatex/xepersian/framed-bidi-xepersian.def
+%{_texmfdistdir}/tex/xelatex/xepersian/footnote-xepersian.def
+%{_texmfdistdir}/tex/xelatex/xepersian/framed-xepersian.def
+%{_texmfdistdir}/tex/xelatex/xepersian/glossaries-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/hyperref-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/imsproc-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/kashida-xepersian.def
+%{_texmfdistdir}/tex/xelatex/xepersian/latex-localise-commands-xepersian.def
+%{_texmfdistdir}/tex/xelatex/xepersian/latex-localise-environments-xepersian.def
+%{_texmfdistdir}/tex/xelatex/xepersian/latex-localise-messages-xepersian.def
+%{_texmfdistdir}/tex/xelatex/xepersian/latex-localise-misc-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/listings-xepersian.def
-%{_texmfdistdir}/tex/xelatex/xepersian/loadingorder-bidi-xepersian.def
+%{_texmfdistdir}/tex/xelatex/xepersian/loadingorder-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/localise-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/memoir-xepersian.def
-%{_texmfdistdir}/tex/xelatex/xepersian/messages-localise.def
 %{_texmfdistdir}/tex/xelatex/xepersian/minitoc-xepersian.def
-%{_texmfdistdir}/tex/xelatex/xepersian/misc-localise-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/natbib-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/packages-localise-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/rapport1-xepersian.def
@@ -87,6 +84,8 @@ Modern fonts, by default.
 %{_texmfdistdir}/tex/xelatex/xepersian/scrreprt-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/tkz-linknodes-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/tocloft-xepersian.def
+%{_texmfdistdir}/tex/xelatex/xepersian/xepersian-localise-commands-xepersian.def
+%{_texmfdistdir}/tex/xelatex/xepersian/xepersian-localise-environments-xepersian.def
 %{_texmfdistdir}/tex/xelatex/xepersian/xepersian-magazine.cls
 %{_texmfdistdir}/tex/xelatex/xepersian/xepersian-mathsdigitspec.sty
 %{_texmfdistdir}/tex/xelatex/xepersian/xepersian-multiplechoice.sty
@@ -119,28 +118,3 @@ Modern fonts, by default.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Aug 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 11.143-1
-+ Revision: 813183
-- Update to latest release.
-
-* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 11.136-2
-+ Revision: 757591
-- Rebuild to reduce used resources
-
-* Fri Dec 09 2011 Paulo Andrade <pcpa@mandriva.com.br> 11.136-1
-+ Revision: 739943
-- texlive-xepersian
-
-* Thu Nov 10 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.3.3-1
-+ Revision: 729702
-- texlive-xepersian
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.3.2-1
-+ Revision: 719926
-- texlive-xepersian
-- texlive-xepersian
-- texlive-xepersian
-
