@@ -6,7 +6,7 @@
 # catalog-version 13.7
 Name:		texlive-xepersian
 Version:	13.7
-Release:	1
+Release:	2
 Summary:	Persian for LaTeX, using XeTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/latex/xepersian
