@@ -1,6 +1,6 @@
 Name:		texlive-xepersian
 Version:	22.7
-Release:	1
+Release:	2
 Summary:	Persian for LaTeX, using XeTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/xetex/latex/xepersian
