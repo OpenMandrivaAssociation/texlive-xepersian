@@ -3,7 +3,7 @@ Version:	68117
 Release:	1
 Summary:	Persian for LaTeX, using XeTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/xetex/latex/xepersian
+URL:		https://www.ctan.org/tex-archive/macros/xetex/latex/xepersian
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xepersian.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/xepersian.doc.r%{version}.tar.xz
