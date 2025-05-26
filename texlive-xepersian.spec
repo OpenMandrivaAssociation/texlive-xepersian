@@ -1,5 +1,5 @@
 Name:		texlive-xepersian
-Version:	68117
+Version:	73697
 Release:	1
 Summary:	Persian for LaTeX, using XeTeX
 Group:		Publishing
